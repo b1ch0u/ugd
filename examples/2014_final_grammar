@@ -1,0 +1,7 @@
+nb_nodes nb_streets total_time nb_cars initial_node ;
+nodes : nb_nodes * [
+    lat?float long?float ;
+]
+streets : nb_streets * [
+    start end type cost length ;
+]
